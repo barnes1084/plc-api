@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: plc-api-linux-x64-${{ github.sha }}
-          path: publish/gme-dm-plc-api-linux-x64.zip
+          path: publish/plc-api-linux-x64.zip
 
   release:
     needs: build
